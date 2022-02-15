@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner	
-		String palavra = "";
+		String palavra = ""; //Declarando variável
     		while (palavra.equals("1") != true){ //Loop para rodar programa várias vezes
       			System.out.println("Digite a palavra: (Digite 1 para finalizar)");
 		  	palavra = scanner.next();//Recebe a string digitada
