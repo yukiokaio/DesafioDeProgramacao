@@ -20,6 +20,6 @@ public class Questao1 {
 			    }
 			}
 			System.out.println(); // Pula linha
-		    }
+		}
 	}
 }
