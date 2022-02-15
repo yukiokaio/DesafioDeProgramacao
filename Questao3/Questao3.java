@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Questao3 {
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);	
+		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner	
 		
 		System.out.println("Digite a palavra: ");
 		String palavra = scanner.next();//Recebe a string digitada
@@ -18,7 +18,7 @@ public class Questao3 {
 	       if(palavra1.length() != palavra2.length()) { 
 	    	   return false; //O número de caracteres precisa ser o mesmo, se não for isso previne todo o processo e retorna diretamente false
 	       }
-	       int count = 0;
+	       int count = 0; //Declarando váriavel count
 	       boolean[] pulando = new boolean[palavra2.length()]; //Vetor para pularmos os caracteres já verificados
 	       for(int i = 0; i < palavra1.length(); i++) {
 	           for(int j = 0; j < palavra2.length(); j++) {
