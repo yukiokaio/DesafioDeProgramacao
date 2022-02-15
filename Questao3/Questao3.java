@@ -4,7 +4,6 @@ import java.util.ArrayList; // Importando ArrayList
 public class Main {
 	public static void main(String[] args) {
 		
-		
 		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner	
 		String palavra = "0";
     		while (palavra.equals("1") != true){
