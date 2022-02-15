@@ -3,8 +3,8 @@ import java.util.Scanner; // Importando Scanner
 public class Questao2 {
 	public static void main(String[] args) {
 		
-		int qt = 0,tam, i; //Declarando váriaveis inteiras
-		boolean maiusculo = false, minusculo = false; // Declarando váriaveis booleanas 
+		int qt = 0,tam, i; //Declarando variáveis inteiras
+		boolean maiusculo = false, minusculo = false; // Declarando variáveis booleanas 
 		
 		Scanner scanner = new Scanner(System.in);//Cria um objeto Scanner	
 		
