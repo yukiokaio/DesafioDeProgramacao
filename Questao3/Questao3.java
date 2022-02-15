@@ -1,7 +1,7 @@
 import java.util.Scanner; //Importando Scanner
 import java.util.ArrayList; // Importando ArrayList
 
-public class Questao3 {
+public class Main {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner	
