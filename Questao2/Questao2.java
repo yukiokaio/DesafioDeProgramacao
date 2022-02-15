@@ -1,6 +1,6 @@
 import java.util.Scanner; // Importando Scanner
 
-public class Questao2 {
+public class Main {
 	public static void main(String[] args) {
 		
 		int qt = 0,tam, i; //Declarando variáveis inteiras
