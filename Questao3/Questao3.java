@@ -18,7 +18,7 @@ public class Questao3 {
 	       if(palavra1.length() != palavra2.length()) { 
 	    	   return false; //O número de caracteres precisa ser o mesmo, se não for isso previne todo o processo e retorna diretamente false
 	       }
-	       int count = 0; //Declarando váriavel count
+	       int count = 0; //Declarando variável count
 	       boolean[] pulando = new boolean[palavra2.length()]; //Vetor para pularmos os caracteres já verificados
 	       for(int i = 0; i < palavra1.length(); i++) {
 	           for(int j = 0; j < palavra2.length(); j++) {
