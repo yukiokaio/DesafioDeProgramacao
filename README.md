@@ -8,6 +8,7 @@
   * Questão 3 - https://replit.com/@yukiokaio/Questao3
   
 * Obs.: O console tem um recuo do lado esquerdo, então desconsiderar esse fato para a questão 1.
+* Obs.2: Na terceira questão o resultado para a palavra "ovo" é 2 pares, como pode ser visto no exemplo dado na questão e somente no resultado da questão consta 3. 
 
 * Abaixo temos a tela: 
   * 1 - Aperte em "Run" para executar o programa.
