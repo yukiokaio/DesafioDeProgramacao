@@ -1,4 +1,3 @@
-package Questao1;
 import java.util.Scanner;
 
 public class Questao1 {
@@ -11,14 +10,14 @@ public class Questao1 {
 	    int qt = scanner.nextInt(); //Recebe a quantidade de asteriscos 
 	    scanner.close(); // Fecha o scanner
 	    
-	    for (i = 1; i <= qt; i++) { //'for' começando de 1 até qt
-	        for (j = qt; j >= 1; j--) {//'for' começando de qt até 1 
-	        	if (j == i) {//Verificando se j é igual a i naquela posição 
-	        		for (k = i; k >= 1; k--) { //"for" para imprimir a quantidade de asteriscos daquela posição
+	    for (i = 1; i <= qt; i++) { //'for' comeÃ§ando de 1 atÃ© qt
+	        for (j = qt; j >= 1; j--) {//'for' comeÃ§ando de qt atÃ© 1 
+	        	if (j == i) {//Verificando se j Ã© igual a i naquela posiÃ§Ã£o 
+	        		for (k = i; k >= 1; k--) { //"for" para imprimir a quantidade de asteriscos daquela posiÃ§Ã£o
 	        			System.out.print("*");// Imprime asteriscos
 	        		}
-	            } else if (j != i) { //Verificando se j é diferente de i naquela posição e dando espaços
-	                System.out.print(" "); // Dá espaços
+	            } else if (j != i) { //Verificando se j Ã© diferente de i naquela posiÃ§Ã£o e dando espaÃ§os
+	                System.out.print(" "); // DÃ¡ espaÃ§os
 	            }
 	        }
 	        System.out.println(); // Pula linha
