@@ -4,13 +4,16 @@ import java.util.ArrayList; // Importando ArrayList
 public class Main {
 	public static void main(String[] args) {
 		
+		
 		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner	
+		String palavra = "0";
+    		while (palavra.equals("1") != true){
+      			System.out.println("Digite a palavra: (Digite 1 para finalizar)");
+		  	palavra = scanner.next();//Recebe a string digitada
+		  	System.out.println("O número de anagramas é/são: " + numeroDeAnagramas(palavra)); //Imprime o número de anagramas
+    		}
+    		scanner.close(); //Fecha o scanner
 		
-		System.out.println("Digite a palavra: ");
-		String palavra = scanner.next();//Recebe a string digitada
-		scanner.close(); //Fecha o scanner
-		
-		System.out.println("O número de anagramas é/são: " + numeroDeAnagramas(palavra)); //Imprime o número de anagramas
 		
 	}
 	public static boolean temAnagramas(String palavra1, String palavra2) {//Função que retorna se uma substring é ou não anagrama
