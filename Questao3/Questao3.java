@@ -6,7 +6,7 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner	
 		String palavra = "0";
-    		while (palavra.equals("1") != true){
+    		while (palavra.equals("1") != true){ //Loop para rodar programa várias vezes
       			System.out.println("Digite a palavra: (Digite 1 para finalizar)");
 		  	palavra = scanner.next();//Recebe a string digitada
 		  	System.out.println("O número de anagramas é/são: " + numeroDeAnagramas(palavra)); //Imprime o número de anagramas
