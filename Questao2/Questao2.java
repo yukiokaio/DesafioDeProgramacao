@@ -1,7 +1,4 @@
-package Questao2;
-
 import java.util.Scanner;
-
 
 public class Questao2 {
 	public static void main(String[] args) {
@@ -18,41 +15,41 @@ public class Questao2 {
 		tam = senha.length(); // Recebe o tamanho da senha digitda
 		
 		for (i = 0; i < tam; i++) {// "For" percorrendo a senha
-			char c = senha.charAt(i);// "c" recebe o caractere da posição i
-			if (Character.isUpperCase(c) && maiusculo == false) { //Verifica se o caractere é maiúsculo e se ele já foi encontrado
-				qt++; //Se for, adiciona +1 a variável qt
+			char c = senha.charAt(i);// "c" recebe o caractere da posiÃ§Ã£o i
+			if (Character.isUpperCase(c) && maiusculo == false) { //Verifica se o caractere Ã© maiÃºsculo e se ele jÃ¡ foi encontrado
+				qt++; //Se for, adiciona +1 a variÃ¡vel qt
 				maiusculo = true; // "maisculo" recebe true
 			}
-			if (Character.isLowerCase(c) && minusculo == false){ //Verifica se o caractere é minúsculo e se ele já foi encontrado
-				qt++; //Se for, adiciona +1 a variável qt
-				minusculo = true; // "minúsculo " recebe true
+			if (Character.isLowerCase(c) && minusculo == false){ //Verifica se o caractere Ã© minÃºsculo e se ele jÃ¡ foi encontrado
+				qt++; //Se for, adiciona +1 a variÃ¡vel qt
+				minusculo = true; // "minÃºsculo " recebe true
 			}
-			if (maiusculo == true && minusculo == true) // Se ambos já foram encontrados, isso previne continuar buscando outros caracteres
+			if (maiusculo == true && minusculo == true) // Se ambos jÃ¡ foram encontrados, isso previne continuar buscando outros caracteres
 			{
-				break;//"For" é parado
+				break;//"For" Ã© parado
 			}
 		}
 		
-		if (senha.matches(".*\\d.*")) { //Verifica se há digitos na senha
-			qt++; //Se for, adiciona +1 a variável qt
+		if (senha.matches(".*\\d.*")) { //Verifica se hÃ¡ digitos na senha
+			qt++; //Se for, adiciona +1 a variÃ¡vel qt
 			
 		}
 		    
 		if (senha.contains("!") || senha.contains("@") || senha.contains("#") || senha.contains("$")  
 				|| senha.contains("%") || senha.contains("^") || senha.contains("&") || senha.contains("*") 
 				|| senha.contains("(") || senha.contains(")") || senha.contains("-") || senha.contains("+")) { 
-			//Verifica se há algum caractere especial
-			qt++;//Se for, adiciona +1 a variável qt
+			//Verifica se hÃ¡ algum caractere especial
+			qt++;//Se for, adiciona +1 a variÃ¡vel qt
 			
 		}
 		
 		if(tam >= 6) {//Verifica o tamanho da senha
-			qt = 4 - qt; // Cálculo para verificar quantos caracteres faltam para a senha ser segura
+			qt = 4 - qt; // CÃ¡lculo para verificar quantos caracteres faltam para a senha ser segura
 			System.out.println("Falta/Faltam " + qt + " caractere(es) para a senha ser segura" ); 
 			// Imprime a quantidade de caracteres que faltam para a senha ser segura
 			
 		}else {
-			qt = qt + 6 - (qt + tam); // Cálculo para verificar quantos caracteres faltam para a senha ser segura, caso a senha tenha menos que 6 caracteres
+			qt = qt + 6 - (qt + tam); // CÃ¡lculo para verificar quantos caracteres faltam para a senha ser segura, caso a senha tenha menos que 6 caracteres
 			System.out.println("Falta/Faltam " + qt + " caractere(es) para a senha ser segura"); 
 			//Imprime a quantidade de caracteres que faltam para a senha ser segura
 			
