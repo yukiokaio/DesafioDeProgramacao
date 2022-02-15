@@ -1,5 +1,5 @@
-import java.util.Scanner;
-import java.util.ArrayList;
+import java.util.Scanner; //Importando Scanner
+import java.util.ArrayList; // Importando ArrayList
 
 public class Questao3 {
 	public static void main(String[] args) {
