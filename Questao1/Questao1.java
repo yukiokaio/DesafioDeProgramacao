@@ -5,7 +5,7 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner
 		int i, j, k, qt = 1; // Declarando variáveis inteiras
-		while (qt != 0){
+		while (qt != 0){ //Loop para rodar programa várias vezes
 			System.out.println("Digite a quantidade de asteriscos: (Digite 0 para finalizar)");
 			int qt = scanner.nextInt(); //Recebe a quantidade de asteriscos 
 
