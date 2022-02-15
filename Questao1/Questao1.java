@@ -1,6 +1,6 @@
 import java.util.Scanner; // Importando Scanner
 
-public class Questao1 {
+public class Main {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in); //Cria um objeto Scanner
