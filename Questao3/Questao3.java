@@ -12,6 +12,7 @@ public class Main {
 		  	System.out.println("O número de anagramas é/são: " + numeroDeAnagramas(palavra)); //Imprime o número de anagramas
     		}
     		scanner.close(); //Fecha o scanner
+		System.out.println("Programa finalizado!");
 		
 		
 	}
