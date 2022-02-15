@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Questao2 {
 	public static void main(String[] args) {
 		
-		int qt = 0,tam, i;
-		boolean maiusculo = false, minusculo = false;
+		int qt = 0,tam, i; //Declarando váriaveis inteiras
+		boolean maiusculo = false, minusculo = false; // Declarando váriaveis booleanas 
 		
-		Scanner scanner = new Scanner(System.in);	
+		Scanner scanner = new Scanner(System.in);//Cria um objeto Scanner	
 		
 		System.out.println("Digite a senha: ");
 		String senha = scanner.next(); //Recebe a senha digitada
