@@ -12,6 +12,6 @@
 
 * Abaixo temos a tela: 
   * 1 - Clique em um dos links listados acima.
-  * 2 - Ao acessar o link, aperte em "Run" para executar o programa.
+  * 2 - Ao acessar o link, aperte em "Run" para executar o programa e aguarde aparecer a solicitação do dado.
   * 3 - Aperte em "Show files" e terá disponível o arquivo "Main.java" com o código.
 ![imagem](https://user-images.githubusercontent.com/34402495/154120609-d54c13fc-afc8-40d5-8862-62e4f15efd55.png)
