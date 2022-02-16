@@ -23,6 +23,6 @@ public class Main {
 			}
 		}
 		scanner.close(); // Fecha o scanner
-		System.out.println("Programa Finalizado");
+		System.out.println("Programa Finalizado!");
 	}
 }
